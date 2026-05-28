@@ -1,0 +1,6 @@
+{
+  "name": "海投APP",
+  "description": "智能简历优化与一键海投助手，帮您一键匹配Boss直聘岗，AI动态优化独一无二的简历并自动生成投递反馈。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
