@@ -156,7 +156,7 @@ fun IntelligentJobsScreen(
                             contentAlignment = Alignment.Center
                         ) {
                             CircularProgressIndicator(
-                                progress = { 0.85f },
+                                progress = 0.85f,
                                 modifier = Modifier.fillMaxSize(),
                                 color = MaterialTheme.colorScheme.primary,
                                 strokeWidth = 5.dp,
@@ -353,7 +353,7 @@ fun IntelligentJobsScreen(
                             verticalArrangement = Arrangement.spacedBy(6.dp)
                         ) {
                             LinearProgressIndicator(
-                                progress = { progressNormValue },
+                                progress = progressNormValue,
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .height(8.dp)

@@ -26,7 +26,7 @@ class GreetingScreenshotTest {
   fun greeting_screenshot() {
     composeTestRule.setContent {
       MyApplicationTheme {
-        androidx.compose.material3.Box(
+        androidx.compose.foundation.layout.Box(
           modifier = androidx.compose.ui.Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background),
